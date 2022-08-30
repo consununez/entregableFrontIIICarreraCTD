@@ -11,21 +11,23 @@
 import { useState } from "react";
 
 export default function Item({ props, handlerTotal }) {
-    const [stock, setStock] = useState(props.stock);
+  const [stock, setStock] = useState(props.stock);
 
-    const handlerStock = () => {
-        stock > 0 && setStock(stock - 1);
-        handlerTotal();
-    }
+  const handlerStock = () => {
+    stock > 0 && setStock(stock - 1);
+    handlerTotal();
+  };
 
-    return ( <
-        div className = 'producto' >
-        <
-        h3 > { props.producto.nombre } < /h3> <
-        p > { props.producto.descripcion } < /p> <
-        h5 > En stock: {
-            stock === 0 ? < span > Agotado < /span> : stock}</h
-            5 > { stock > 0 ? < button onClick = { handlerStock } > Comprar < /button> :  <button disabled>Sin stock</button > } <
-            /div>
-        )
-    }
+  return (
+    <div className="producto">
+      <h3>{props.producto.nombre}</h3>
+      <p>{props.producto.descripcion}</p>
+      <h5>En stock: {stock === 0 ? <span>Agotado</span> : stock}</h5>
+      {stock > 0 ? (
+        <button onClick={handlerStock}>Comprar</button>
+      ) : (
+        <button disabled>Sin stock</button>
+      )}
+    </div>
+  );
+}
