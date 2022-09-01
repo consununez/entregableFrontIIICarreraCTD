@@ -1,9 +1,25 @@
-# Guía de consignas
+# FRONTEND III - Primer Entregable
 
-En cada uno de los componentes está detallado su funcionamiento.
+**La app**
+
+- La aplicación se trata de un carrito de compras simple.
+- Dado un listado de productos, mediante un boton "COMPRAR" es posible agregar el producto al carrito, aumentando la cantidad total de productos en el carrito y disminuyendo el stock del producto seleccionado.
+- Cuando el stock del producto llega a cero, se muestra como agotado y se deshabilita el click del botón.
+- El proyecto fue realizado con React.
+
+# Objetivos
+
+- Utilizar React para crear una aplicación.
+- Estructura de archivos y carpetas en React.
+- Componentes.
+- Props.
+- Estados.
+
+# Pasos para correr el proyecto
+
+1. Ejecutar `npm install` para instalar las dependencias.
+2. Iniciar el proyecto con `npm start`.
 
 # Demo del proyecto
 
-Aquí pueden ver una demo del funcionamiento de la aplicación.
-
-![demoReactFE3.gif](https://raw.githubusercontent.com/Frontend-III/entregable-frontend-3-junio22/main/demoReactFE3.gif)
+Para visualizar una demo del proyecto hacé click [acá](./demoReactFE3.gif).

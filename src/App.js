@@ -10,13 +10,15 @@ import { useState } from "react";
 
 function App() {
   const [total, setTotal] = useState(0);
-  const handlerTotal = () => {
+
+  const aumentarTotal = () => {
     setTotal(total + 1);
   };
 
   return (
     <div className="App">
-      <Cabecera total={total} /> <Listado handlerTotal={handlerTotal} />{" "}
+      <Cabecera total={total} />
+      <Listado aumentarTotal={aumentarTotal} />
     </div>
   );
 }
