@@ -1,26 +1,38 @@
 [
   {
     "id": "1",
+    "imagen": "./lavanda.jpg",
     "producto": {
-      "nombre": "Zapatillas Nike Revolution 6 Next Nature",
-      "descripcion": "Suma más y más kilómetros con tus Zapatillas Nike Revolution 6 Next Nature, que aportan amortiguación y confort a cada paso que des. Su capellada transpirable y suela diseñada por computadora para una mejor tracción son ideales hasta para los corredores más exigentes."
+      "nombre": "Aceite Esencial Lavanda Puro Natural",
+      "descripcion": "Este aceite esencial se obtiene de las flores. Su método de extracción es la destilación por arrastre de vapor. Su tono aromático es floral y levemente herbáceo. Alivia los procesos inflamatorios e irritaciones de la piel. Posee un gran poder calmante y relajante. Genera un ambiente tranquilo e invita a un descanso reparador."
     },
-    "stock": 5
+    "stock": 10
   },
   {
     "id": "2",
+    "imagen": "./sandalo.jpg",
     "producto": {
-      "nombre": "Zapatillas Puma Shuffle",
-      "descripcion": "Las zapatillas Puma Shuffle ADP están confeccionadas en materiales sintéticos. De caña baja, con ajuste personalizado gracias al sistema de cordones, sus perforaciones le dan un estilo urbano que se fusiona con la inserción del logo PUMA N°1 y PUMA N°2 para que camines la calle de la ciudad con un calzado sofisticado."
+      "nombre": "Aceite Esencial Sándalo Puro Natural",
+      "descripcion": "Este aceite esencial se obtiene de la madera. Su método de extracción es la destilación por arrastre de vapor. Su tono aromático es dulce y amaderado. Es antidepresivo e induce a un estado sereno y equilibrado. Muy utilizado para crear ambientes meditativos. Gran regenerador celular. Ideal para pieles irritadas y secas."
     },
-    "stock": 1
+    "stock": 6
   },
   {
     "id": "3",
+    "imagen": "./geranio.jpg",
     "producto": {
-      "nombre": "Zapatillas Adidas Coreracer",
-      "descripcion": "Urbanas, livianas y frescas, las Zapatillas adidas Coreracer están pensadas para cumplir con las demandas de los corredores más exigentes. Su suela tiene un estabilizador de talón y su capellada es transpirable para mantener el confort que mereces durante todo tu trayecto."
+      "nombre": "Aceite Esencial Geranio Puro Natural",
+      "descripcion": "Este aceite esencial se obtiene de las hojas, flores y tallos. Su método de extracción es la destilación por arrastre de vapor. Su tono aromático es floral y dulce. Alivia procesos inflamatorios. Estimula la buena circulación sanguínea. Posee propiedades calmantes además de promover el cuidado y salud del cuero cabelludo."
     },
-    "stock": 3
+    "stock": 4
+  },
+  {
+    "id": "4",
+    "imagen": "./limon.jpg",
+    "producto": {
+      "nombre": "Aceite Esencial Limón Puro Natural",
+      "descripcion": "Este aceite esencial se obtiene de las cáscaras del limón. Su método de extracción es el prensado en frío. Su tono aromático es fresco y cítrico. Sensación de limpieza y frescura en los ambientes. Posee propiedades antisépticas y vigorizantes. Promueve los estados de ánimo positivos. Combate el acné y mantiene limpia la piel."
+    },
+    "stock": 8
   }
 ]

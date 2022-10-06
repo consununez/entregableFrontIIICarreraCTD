@@ -10,13 +10,12 @@ import React from "react";
 import data from "./data.json";
 import Item from "./Item";
 
-export default function Listado({ handlerTotal }) {
+export default function Listado({ aumentarTotal }) {
   return (
     <div className="container">
-      {" "}
       {data.map((item) => (
-        <Item props={item} key={item.id} handlerTotal={handlerTotal} />
-      ))}{" "}
+        <Item props={item} key={item.id} aumentarTotal={aumentarTotal} />
+      ))}
     </div>
   );
 }

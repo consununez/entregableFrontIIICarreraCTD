@@ -10,21 +10,22 @@
 
 import { useState } from "react";
 
-export default function Item({ props, handlerTotal }) {
+export default function Item({ props, aumentarTotal }) {
   const [stock, setStock] = useState(props.stock);
 
-  const handlerStock = () => {
+  const restarStock = () => {
     stock > 0 && setStock(stock - 1);
-    handlerTotal();
+    aumentarTotal();
   };
 
   return (
     <div className="producto">
       <h3>{props.producto.nombre}</h3>
+      <img src={props.producto.imagen} alt="imagen" />
       <p>{props.producto.descripcion}</p>
       <h5>En stock: {stock === 0 ? <span>Agotado</span> : stock}</h5>
       {stock > 0 ? (
-        <button onClick={handlerStock}>Comprar</button>
+        <button onClick={restarStock}>Comprar</button>
       ) : (
         <button disabled>Sin stock</button>
       )}
