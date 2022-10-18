@@ -5,7 +5,7 @@
 - La aplicación se trata de un carrito de compras simple.
 - Dado un listado de productos, mediante un botón "COMPRAR" es posible agregar el producto al carrito, aumentando la cantidad total de productos en el carrito y disminuyendo el stock del producto seleccionado.
 - Cuando el stock del producto llega a cero, se muestra como agotado y se deshabilita el click del botón.
-- El proyecto fue realizado con React.
+- El proyecto fue realizado con React para la materia FronEnd III de la carrera CTD.
 
 ### Objetivos
 
